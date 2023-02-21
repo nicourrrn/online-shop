@@ -1,0 +1,3 @@
+#!/bin/bash
+
+poetry run uvicorn online_shop.asgi:application

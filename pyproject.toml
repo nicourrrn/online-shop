@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "online-shop"
+version = "0.1.0"
+description = ""
+authors = ["Sorokin Vadym <s57111702@gmail.com>"]
+readme = "README.md"
+packages = [{include = "online_shop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.7"
+djangorestframework = "^3.14.0"
+uvicorn = "^0.20.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-django = "^4.5.2"
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
